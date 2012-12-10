@@ -42,3 +42,10 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/tempora-lgc > %{buildroot}%{_xfontdir}/TTF
 %verify(not mtime) %{_datadir}/fonts/TTF/tempora-lgc/fonts.dir
 %{_xfontdir}/TTF/tempora-lgc/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-tempora-lgc:pri=50
+
+
+%changelog
+* Wed Dec 07 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.2-1
++ Revision: 738637
+- imported package fonts-ttf-tempora-lgc
+
