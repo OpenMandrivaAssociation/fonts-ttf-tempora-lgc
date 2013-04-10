@@ -3,7 +3,7 @@
 Summary:	times-like font with Latin, Greek and Cyrillic support
 Name:		fonts-ttf-tempora-lgc
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPLv2 with exception
 Group:		System/Fonts/True type
 URL:		http://www.thessalonica.org.ru/en/fonts.html
@@ -25,8 +25,6 @@ independent typeface, quite different from its predecessors.
 %build
 
 %install
-%__rm -rf %{buildroot}
-
 %__mkdir_p %{buildroot}%{_xfontdir}/TTF/tempora-lgc
 
 %__install -m 644 *.ttf %{buildroot}%{_xfontdir}/TTF/tempora-lgc
@@ -36,9 +34,6 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/tempora-lgc > %{buildroot}%{_xfontdir}/TTF
 %__mkdir_p %{buildroot}%_sysconfdir/X11/fontpath.d/
 %__ln_s ../../..%{_xfontdir}/TTF/tempora-lgc \
     %{buildroot}%_sysconfdir/X11/fontpath.d/ttf-tempora-lgc:pri=50
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %doc COPYING HISTORY README
