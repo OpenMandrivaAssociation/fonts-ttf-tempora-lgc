@@ -12,7 +12,12 @@ BuildArch:	noarch
 BuildRequires:	freetype-tools
 
 %description
-This font family is based on two well-known free typefaces similar to Adobe Times: Nimbus Roman No 9 L by URW (russified by Valek Filippov), and the Omega Serif family, developed by Yannis Haralambous. However, all basic components of the font, and especially its Greek and Cyrillic parts, have suffered serious modifications, so that currently Tempora LGC Unicode represents an independent typeface, quite different from its predecessors.
+This font family is based on two well-known free typefaces similar to Adobe
+Times: Nimbus Roman No 9 L by URW (russified by Valek Filippov), and the Omega
+Serif family, developed by Yannis Haralambous. However, all basic components
+of the font, and especially its Greek and Cyrillic parts, have suffered
+serious modifications, so that currently Tempora LGC Unicode represents an
+independent typeface, quite different from its predecessors.
 
 %prep
 %setup -q -c -n %{pkgname}-%{version}
