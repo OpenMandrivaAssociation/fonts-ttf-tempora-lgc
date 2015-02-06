@@ -3,7 +3,7 @@
 Summary:	times-like font with Latin, Greek and Cyrillic support
 Name:		fonts-ttf-tempora-lgc
 Version:	0.2
-Release:	2
+Release:	3
 License:	GPLv2 with exception
 Group:		System/Fonts/True type
 URL:		http://www.thessalonica.org.ru/en/fonts.html
