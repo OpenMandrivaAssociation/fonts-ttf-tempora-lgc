@@ -6,7 +6,7 @@ Version:	0.2
 Release:	3
 License:	GPLv2 with exception
 Group:		System/Fonts/True type
-URL:		http://www.thessalonica.org.ru/en/fonts.html
+URL:		https://www.thessalonica.org.ru/en/fonts.html
 Source0:	http://www.thessalonica.org.ru/downloads/%{pkgname}.ttf.zip
 BuildArch:	noarch
 BuildRequires:	freetype-tools
